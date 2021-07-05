@@ -224,6 +224,7 @@ margin-top: 30px;
     padding: 20px 20px 40px 20px;
 }
 /************ Latest Recipes style End**************/
+/************ Counter style Start**************/
 #counter{
     padding: 0 5%;
     margin: 80px 0; 
@@ -242,3 +243,59 @@ margin-top: 30px;
     font-weight: bold;
     margin-bottom: 15px;
 }
+/************ Counter style End**************/
+
+/************ Contact style Start**************/
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    max-width: 1000px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    box-shadow: 10px 10px 30px 0px #888888;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 0;
+    outline: 0;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    margin-left: 10px;
+    box-shadow: 10px 10px 30px 0px #888888;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .input-group{
+    flex-basis: 48%;
+}
+/************ Contact style End**************/
