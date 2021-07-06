@@ -317,6 +317,7 @@ button{
 }
 /************ Contact style End**************/
 
+/************ Footer style Start**************/
 #footer{
     height: 200px;
     background-color: black;
@@ -333,3 +334,4 @@ button{
     color: white;
     padding-top: 20px;
 }
+/************ Footer style End**************/
